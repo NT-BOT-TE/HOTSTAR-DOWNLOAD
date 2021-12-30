@@ -1,17 +1,15 @@
 class Translation(object):
 
-    START_TEXT = """Hello,
+    START_TEXT = """Hello, I'm hotstar video download bot
 
-This is a Telegram URL Upload Bot!
-
-<b>Please send me any Direct download URL link, I can upload to telegram as File/Video</b>
+<b>Please send me hotstar video link I can upload to telegram as File/Video</b>
 
 /help for more details..
 
-Support Group : @TroJanzSupport
+© @NT_BOT_ADMIN
 """
 
-    HELP_USER = """Hai I'am a URL Uploader bot..
+    HELP_USER = """ʜɪ, ɪ'ᴍ ʜᴏᴛsᴛᴀʀ ᴠɪᴅᴇᴏ ᴅᴏᴡɴʟᴏᴀᴅ ʙᴏᴛ..
     
 1. Send url (Link | New Name with Extension).
 2. Send Custom Thumbnail (Optional).
@@ -20,9 +18,7 @@ Support Group : @TroJanzSupport
    DFile  - Give File with Screenshots
    Video  - Give File as video without Screenshots
    DFile  - Give File without Screenshots
-
-Support Group : @TroJanzSupport
-"""
+ Cʜᴀɴɴᴇʟ ᴊᴏɪɴ @NT_BOT_CHANNEL"""
 
     FORMAT_SELECTION = """Select the desired format: <a href='{}'>file size might be approximate</a>
     
@@ -33,11 +29,11 @@ You can use /deletethumbnail to delete the auto-generated thumbnail."""
 URL | newfilename | username | password"""
 
 
-    UPGRADE_TEXT = "<b>👉 Create own Clone Bot.. </b>  \n\n<a href='https://github.com/prgofficial/URLuploader-With-Hotstar'>Click here, Fork and deploy!!</a>"
+    UPGRADE_TEXT = "<b>👉 Create own Clone Bot.. </b>  \n\n<a href='https://github.com/NT-BOT-TE/HOTSTAR-DOWNLOAD'>Click here, Fork and deploy!!</a>"
     
-    DOWNLOAD_START = "Trying to download your file..."
+    DOWNLOAD_START = "Dᴏᴡɴʟᴏᴀᴅ ᴜʀ ʟɪɴᴋ"
     
-    UPLOAD_START = "Uploading now.."
+    UPLOAD_START = "Uᴘʟᴏᴀᴅɪɴɢ ᴜʀ ғɪʟᴇ"
     
     AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Downloaded in {} seconds. \n\nUploaded in {} seconds."
 
