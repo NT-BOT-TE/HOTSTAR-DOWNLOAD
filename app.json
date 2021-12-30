@@ -1,6 +1,7 @@
 {
-  "name": "URL Uploader",
-  "description": "Telegram's Open Source URL Uploader Bot. Create your Fork now.",
+  "name": "NT HOTSTAR DOWNLOADER",
+  "description": "Telegram. Bot down",
+  "logo": "https://te.legra.ph/file/469ea24aeb7fec03b902d.jpg",
   "keywords": [
     "telegram",
     "url",
@@ -8,7 +9,7 @@
   ],
   "success_url": "https://telegram.dog/AnyDLBot",
   "website": "https://github.com/prgofficial",
-  "repository": "https://github.com/prgofficial/URLuploader-With-Hotstar",
+  "repository": "https://github.com/NT-BOT-TE/HOTSTAR-DOWNLOAD",
   "env": {
     "WEBHOOK": {
       "description": "Leave this as it is!",
@@ -41,7 +42,7 @@
       "required": false
     },
     "DEF_THUMB_NAIL_VID_S": {
-      "description": "default thumbnail link to be used in the videos if youtube-dl is unable to find a thumbnail. Get a link for your image from @TGraphHEXbot",
+      "description": "default thumbnail link to be used in the videos if youtube-dl is unable to find a thumbnail.",
       "value": "",
       "required": false
     },
